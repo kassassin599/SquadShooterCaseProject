@@ -1,13 +1,14 @@
 namespace Watermelon
 {
-    public enum UpgradeType
-    {
-        None = -1,
+  public enum UpgradeType
+  {
+    None = -1,
 
-        // weapons
-        Minigun = 0,
-        Shotgun = 1,
-        Tesla = 2,
-        LavaLauncher = 3,
-    }
+    // weapons
+    Minigun = 0,
+    Shotgun = 1,
+    Tesla = 2,
+    LavaLauncher = 3,
+    Sniper = 4,
+  }
 }

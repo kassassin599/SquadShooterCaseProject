@@ -193,6 +193,37 @@ MonoBehaviour:
     m_HintWeight: 1
     m_MaintainTargetPositionOffset: 0
     m_MaintainTargetRotationOffset: 0
+--- !u!1 &2575117092009787099
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6848011968232779352}
+  m_Layer: 0
+  m_Name: Sniper Holder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6848011968232779352
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2575117092009787099}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0.013089582, z: 0, w: 0.99991435}
+  m_LocalPosition: {x: 0.082, y: 1.179, z: 0.375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9223323684423222863}
+  m_LocalEulerAnglesHint: {x: 0, y: -1.5, z: 0}
 --- !u!1 &3111060760860426264
 GameObject:
   m_ObjectHideFlags: 0
@@ -356,6 +387,7 @@ MonoBehaviour:
   shootGunHolderTransform: {fileID: 4473405991651107879}
   rocketHolderTransform: {fileID: 682801144309499857}
   teslaHolderTransform: {fileID: 4385699172501096620}
+  sniperHolderTransform: {fileID: 6848011968232779352}
   mainRig: {fileID: 4725317598183709309}
   leftHandController: {fileID: 818021652634256197}
   rightHandController: {fileID: 8150722306542189385}
@@ -423,6 +455,7 @@ Transform:
   - {fileID: 4473405991651107879}
   - {fileID: 682801144309499857}
   - {fileID: 4385699172501096620}
+  - {fileID: 6848011968232779352}
   m_Father: {fileID: 2100896773218169650}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7790195195892304847

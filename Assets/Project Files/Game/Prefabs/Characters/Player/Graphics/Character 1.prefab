@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &187116987518683760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 635780552058749461}
+  m_Layer: 0
+  m_Name: Sniper Holder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &635780552058749461
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187116987518683760}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0.013089582, z: 0, w: 0.99991435}
+  m_LocalPosition: {x: 0.082, y: 1.179, z: 0.375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8352054801932669279}
+  m_LocalEulerAnglesHint: {x: 0, y: -1.5, z: 0}
 --- !u!1 &1101969472619705970
 GameObject:
   m_ObjectHideFlags: 0
@@ -174,6 +205,7 @@ Transform:
   - {fileID: 7757514660986331893}
   - {fileID: 8210536126565926362}
   - {fileID: 7542486509285704926}
+  - {fileID: 635780552058749461}
   m_Father: {fileID: 128652064810387581}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5642161791788754803
@@ -453,6 +485,7 @@ MonoBehaviour:
   shootGunHolderTransform: {fileID: 7757514660986331893}
   rocketHolderTransform: {fileID: 8210536126565926362}
   teslaHolderTransform: {fileID: 7542486509285704926}
+  sniperHolderTransform: {fileID: 635780552058749461}
   mainRig: {fileID: 2432178721322063365}
   leftHandController: {fileID: 3524533464435158221}
   rightHandController: {fileID: 2275046911731308231}

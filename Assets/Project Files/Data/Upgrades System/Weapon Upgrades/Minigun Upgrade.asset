@@ -55,7 +55,7 @@ MonoBehaviour:
       firstValue: 23.4375
       secondValue: 23.4375
     keyUpgradeNumber: 0
-  - price: 70
+  - price: 0
     currencyType: 0
     previewSprite: {fileID: 0}
     weaponPrefab: {fileID: 6347890837037930244, guid: 60d8b7dff4bbbbc4db793104d2c025a1,
@@ -75,7 +75,7 @@ MonoBehaviour:
     bulletSpeed:
       firstValue: 23.4375
       secondValue: 23.4375
-    keyUpgradeNumber: 2
+    keyUpgradeNumber: 0
   - price: 90
     currencyType: 0
     previewSprite: {fileID: 0}

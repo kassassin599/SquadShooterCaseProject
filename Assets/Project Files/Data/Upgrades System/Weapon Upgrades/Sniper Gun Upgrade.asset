@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21d5dd695fc913d4ba66ba7e0d8b02e9, type: 3}
+  m_Name: Sniper Gun Upgrade
+  m_EditorClassIdentifier: 
+  upgradeType: 4
+  title: 
+  upgrades:
+  - price: 0
+    currencyType: 0
+    previewSprite: {fileID: 0}
+    weaponPrefab: {fileID: 0}
+    bulletPrefab: {fileID: 0}
+    damage:
+      firstValue: 0
+      secondValue: 0
+    rangeRadius: 0
+    fireRate: 0
+    spread: 0
+    power: 0
+    bulletsPerShot:
+      firstValue: 0
+      secondValue: 0
+    bulletSpeed:
+      firstValue: 0
+      secondValue: 0
+    keyUpgradeNumber: -1
+  - price: 0
+    currencyType: 0
+    previewSprite: {fileID: 0}
+    weaponPrefab: {fileID: 4875357863301369030, guid: baeb60d2f26309641a184eaccf1f1840,
+      type: 3}
+    bulletPrefab: {fileID: 7995167561492624291, guid: 61df27ab3d289184898fe34021f5cccb,
+      type: 3}
+    damage:
+      firstValue: 20
+      secondValue: 30
+    rangeRadius: 60
+    fireRate: 1.5
+    spread: 1
+    power: 9
+    bulletsPerShot:
+      firstValue: 1
+      secondValue: 1
+    bulletSpeed:
+      firstValue: 100
+      secondValue: 100
+    keyUpgradeNumber: 0
+  specialGameObject: {fileID: 0}
